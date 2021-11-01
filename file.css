@@ -1,0 +1,81 @@
+h1 {
+    color: #df0b6e;
+    font-size: 200%;
+    text-align: center;
+    }
+    .center {
+        text-align: center;
+        color: #0183fc;
+    }
+      #for_id {
+        text-align: center;
+        color: #00f829;
+      }
+      
+      #first_element { 
+        position: relative; 
+        left: 130px; 
+        top: 70px; 
+        width: 250px; 
+        background-color: #d61414; 
+        border: solid 3px #ff7347; 
+        font-size: 24px; 
+        text-align: center; 
+      } 
+      #second_element { 
+        position: absolute; 
+        width: 250px; 
+        background-color: #10ec10; 
+        border: solid 3px #ff7347; 
+        font-size: 24px; 
+        text-align: center; 
+      }
+      .float1 {
+        float: right; 
+        background: rgb(5, 240, 208); 
+        padding: 10px;
+        margin-left: 20px;
+        width: 10%; 
+         }
+         
+         .float2 {
+        float: right; 
+        background: rgb(211, 12, 5); 
+        padding: 10px;
+        margin-left: 20px;
+        width: 10%; 
+         }
+
+         .flex {
+          flex-wrap: wrap;
+          display: flex;
+          width: 325px;
+          background: #ffffff; padding: 5px;
+        }
+        .flex-item { background: #f7f302;
+          font-size: 2.5rem;
+          color: rgb(0, 0, 0);  
+          margin: 2.5px;  
+          padding: 7px;
+        
+         
+        }
+        .flex .item1{ flex-grow: 0;
+        background:rgb(2, 250, 2); }
+        .flex .item2{ flex-grow: 0; }
+        .flex .item3{ flex-grow: 0; }
+        .flex .item4{ flex-grow: 0; }
+        .flex .item5{ flex-grow: 0; }
+        .flex .item6{ flex-grow: 0; }
+        .flex .item7{ flex-grow: 0; }
+        .flex .item8{ flex-grow: 1; }
+        .flex .item9{ flex-grow: 4;
+          background:rgb(2, 250, 2);  }
+
+       
+
+        
+    
+       
+
+        

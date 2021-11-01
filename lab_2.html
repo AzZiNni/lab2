@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         Лаба №2
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="file.css">
+        
+        <style type="text/css">
+            p {
+            background-color : rgb(115, 255, 0);
+            color: rgb(102, 5, 5);
+            text-align : center
+            }
+
+            </style>
+    </head>
+    <body>
+        <div style="font-size:30pt; color:rgb(35, 190, 69)"> Пример inline-описания (используется атрибут style) </div>
+        <p>с помощью контейнера в секции заголовка;</p>
+        <h1>подключить стилевую таблицу, расположенную во внешнем файле</h1>
+        <h2 class="center">Используя селекторы CLASS показать использование стилей</h2>
+        <div id="for_id"> Используя селекторы ID, показать использование стилей</div>
+        <div id="first_element">Относительная </div> 
+        <div id="second_element">Абсолютная</div>
+        <div class="float1">Плавающая модель_1</div>
+        <div class="float2">Плавающая модель_2</div>
+        <br></br> <br></br> <br></br>
+        <style>
+            .Green {
+              background: green;
+              width: 130px;
+              height: 130px;
+              transition: .5s;
+            }
+            #one:checked ~ .Green {
+              background: red;
+            }
+            #two:checked ~ .Green {
+              background: yellow;
+            }
+            #tree:checked ~ .Green {
+              background: blue;
+            }
+            #one_two:checked ~ .Green {
+              background: orangered;
+            }
+            </style>
+            
+            <input type="checkbox" id="one"/>
+            <input type="checkbox" id="two"/>
+            <input type="checkbox" id="tree"/>
+            <div class="Green"></div>
+            <div class="red"></div>
+
+
+            <style>
+                .flex{ display: flex; }
+            </style>
+            
+        <div class="flex">
+          <div class="flex-item item1">1</div>
+          <div class="flex-item item2">2</div>
+          <div class="flex-item item3">3</div>
+          <div class="flex-item item4">4</div>
+          <div class="flex-item item5">5</div>
+          <div class="flex-item item6">6</div>
+          <div class="flex-item item7">7</div>
+          <div class="flex-item item8">8</div>
+          <div class="flex-item item9">9</div>
+        </div>
+    </body>
+</html>
